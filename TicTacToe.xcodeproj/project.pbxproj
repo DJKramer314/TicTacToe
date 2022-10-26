@@ -11,6 +11,8 @@
 		FCB4781A26E1AAB700D16CAA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4781926E1AAB700D16CAA /* ContentView.swift */; };
 		FCB4781C26E1AAB800D16CAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB4781B26E1AAB800D16CAA /* Assets.xcassets */; };
 		FCB4781F26E1AAB800D16CAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCB4781E26E1AAB800D16CAA /* Preview Assets.xcassets */; };
+		FCB4782726E1B83900D16CAA /* TTTGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4782626E1B83900D16CAA /* TTTGame.swift */; };
+		FCB4782926E1B9E900D16CAA /* SinglePlayerTTT.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB4782826E1B9E900D16CAA /* SinglePlayerTTT.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		FCB4781B26E1AAB800D16CAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCB4781E26E1AAB800D16CAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		FCB4782026E1AAB800D16CAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCB4782626E1B83900D16CAA /* TTTGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TTTGame.swift; sourceTree = "<group>"; };
+		FCB4782826E1B9E900D16CAA /* SinglePlayerTTT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePlayerTTT.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +56,8 @@
 		FCB4781626E1AAB700D16CAA /* TicTacToe */ = {
 			isa = PBXGroup;
 			children = (
+				FCB4782626E1B83900D16CAA /* TTTGame.swift */,
+				FCB4782826E1B9E900D16CAA /* SinglePlayerTTT.swift */,
 				FCB4781726E1AAB700D16CAA /* TicTacToeApp.swift */,
 				FCB4781926E1AAB700D16CAA /* ContentView.swift */,
 				FCB4781B26E1AAB800D16CAA /* Assets.xcassets */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCB4782726E1B83900D16CAA /* TTTGame.swift in Sources */,
 				FCB4781A26E1AAB700D16CAA /* ContentView.swift in Sources */,
+				FCB4782926E1B9E900D16CAA /* SinglePlayerTTT.swift in Sources */,
 				FCB4781826E1AAB700D16CAA /* TicTacToeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
